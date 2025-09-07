@@ -1,0 +1,103 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+
+    color: goldenrod;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+
+    background-color: black;
+    color: gold;
+    padding: 15px;
+}
+
+main {
+    min-height: 70vh;
+}
+
+.temple1,
+.temple2,
+.temple3,
+.temple4,
+.temple5,
+.temple6 {
+    padding: 60px;
+    text-align: center;
+    box-shadow: 2px 2px 20px darkorange;
+
+    color: darkslateblue;
+    margin: 100px;
+    border-radius: 5px;
+    justify-content: center;
+
+
+
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline;
+    transition: 1.5s;
+}
+
+img:hover {
+    transform: scale(2.5);
+    z-index: 1;
+}
+
+h2 {
+    color: crimson;
+}
+
+p {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 10px;
+    padding: 15px;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+body {
+    background-image: url("https://www.tripsavvy.com/thmb/41HRVjQbbRYqJhUp1eAjXGzVqks=/2448x1621/filters:no_upscale():max_bytes(150000):strip_icc()/_DSC1048_Snapseed-56a3bd775f9b58b7d0d38fee.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: blanchedalmond;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+.testimonial {
+    padding: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.border-box {
+    border: 2px solid goldenrod;
+    /* Adds a light grey border */
+    border-radius: 8px;
+    /* Optional: Adds rounded corners */
+    margin-bottom: 20px;
+    /* Space between testimonials */
+}
