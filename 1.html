@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Form Example</title>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form action="/submit" method="post">
+<!-- Text input for name -->
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+<!-- Email input -->
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="Your
+email" required><br><br>
+<!-- Radio buttons for gender -->
+<label>Gender:</label><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br><br>
+<!-- Checkbox for subscription -->
+<input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+<label for="subscribe">Subscribe to our newsletter</label><br><br>
+<!-- Dropdown (select) for country -->
+<label for="country">Country:</label><br>
+<select id="country" name="country">
+<option value="usa">United States</option>
+<option value="uk">United Kingdom</option>
+<option value="india">India</option>
+<option value="australia">Australia</option>
+</select><br><br>
+<!-- Textarea for message -->
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="4" cols="50" placeholder="Your message"></textarea><br><br>
+<!-- Submit button -->
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
